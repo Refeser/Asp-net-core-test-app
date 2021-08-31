@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = "_InputPage";
+}
+
+@{
+    //ViewData["Title"] = "Страница ввода";
+    ViewBag.Title = "Страница вывода";
+}
+
+<form action="/InputPage/AddProduct" method="post">
+    <div class="inputs">
+        <div id="inputBlock">
+            <h3>Категория товара</h3>
+            <input id="category" name="category">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Название продукции</h3>
+            <input id="name" name="name">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Стоимость за единицу</h3>
+            <input type="number" id="price" name="price">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Количество продукции</h3>
+            <input type="number" id="count" name="count">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Размер скидки</h3>
+            <input id="discount" type="number" maxlength="3" name="discount">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Дата начала скидки</h3>
+            <input type="date" id="discountStart" name="saleStart">
+        </div>
+
+        <div id="inputBlock">
+            <h3>Дата окончания скидки</h3>
+            <input type="date" id="discountEnd" name="saleFinish">
+        </div>
+    </div>
+    <div>
+        <input class=submitButton type="submit" value="Ввести данные" />
+        <!--<button>Ввести данные</button>-->
+    </div>
+</form>
+
