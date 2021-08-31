@@ -9366,11 +9366,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Refeser\\source\\repos\\Store\\Store\\Store.csproj",
+      "projectUniqueName": "C:\\Users\\Refeser\\Desktop\\Repos\\Asp-net-core-test-app\\Store\\Store\\Store.csproj",
       "projectName": "Store",
-      "projectPath": "C:\\Users\\Refeser\\source\\repos\\Store\\Store\\Store.csproj",
+      "projectPath": "C:\\Users\\Refeser\\Desktop\\Repos\\Asp-net-core-test-app\\Store\\Store\\Store.csproj",
       "packagesPath": "C:\\Users\\Refeser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Refeser\\source\\repos\\Store\\Store\\obj\\",
+      "outputPath": "C:\\Users\\Refeser\\Desktop\\Repos\\Asp-net-core-test-app\\Store\\Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

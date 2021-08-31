@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oGFI+RYJMmTi2P6/uRpA/Xs1MK1eV9JrnK6rNx0D6k0Z1y4rjgZGxsvS1Bn9uHvYm3a5NkKefwEKs9zh42k2PA==",
+  "dgSpecHash": "ZiCJxcuCJlGSDP88VK+/3qZEz6yPhCwTZbYpHV0sk3NntbjzFcY6SjozbMZtwsmgKRCMKkp8ZQ1z/GPplp3OHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Refeser\\source\\repos\\Store\\Store\\Store.csproj",
+  "projectFilePath": "C:\\Users\\Refeser\\Desktop\\Repos\\Asp-net-core-test-app\\Store\\Store\\Store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Refeser\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Refeser\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
