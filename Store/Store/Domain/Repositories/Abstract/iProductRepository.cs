@@ -12,5 +12,6 @@ namespace Store.Domain.Repositories.Abstract
         Product GetProductById(Guid id);
         void AddProduct(string category, string name, string price, string count, string discount, DateTime saleStart, DateTime saleFinish);
         void SaveProduct(Product entity);
+        IEnumerable<Product> ChoseDate(DateTime start, DateTime finish);
     }
 }

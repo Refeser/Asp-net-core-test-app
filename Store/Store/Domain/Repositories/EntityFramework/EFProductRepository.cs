@@ -66,5 +66,10 @@ namespace Store.Domain.Repositories.EntityFramework
                 context.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             context.SaveChanges();
         }
+
+        public IEnumerable<Product> ChoseDate(DateTime start, DateTime finish)
+        {
+            return context.Products.Where(x => x.SaleStart <= start && x.SaleFinish >= finish);
+        }
     }
 }

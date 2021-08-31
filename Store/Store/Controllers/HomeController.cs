@@ -20,5 +20,12 @@ namespace Store.Controllers
         {
             return View(dataManager.ProductsRep.GetProducts());
         }
+
+
+        public ActionResult SaleSort(DateTime start, DateTime finish)
+        {
+            return View(dataManager.ProductsRep.ChoseDate(start, finish));
+
+        }
     }
 }

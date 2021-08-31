@@ -360,3 +360,4 @@ C:\Users\Refeser\Desktop\Repos\Asp-net-core-test-app\Store\Store\obj\Debug\net5.
 C:\Users\Refeser\Desktop\Repos\Asp-net-core-test-app\Store\Store\obj\Debug\net5.0\ref\Store.dll
 C:\Users\Refeser\Desktop\Repos\Asp-net-core-test-app\Store\Store\obj\Debug\net5.0\Store.pdb
 C:\Users\Refeser\Desktop\Repos\Asp-net-core-test-app\Store\Store\obj\Debug\net5.0\Store.genruntimeconfig.cache
+C:\Users\Refeser\Desktop\Repos\Asp-net-core-test-app\Store\Store\obj\Debug\net5.0\Razor\Views\Home\SaleSort.cshtml.g.cs
