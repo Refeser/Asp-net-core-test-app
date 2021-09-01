@@ -10,7 +10,7 @@ namespace Store.Domain.Repositories.Abstract
     {
         IQueryable<Product> GetProducts();
         Product GetProductById(Guid id);
-        void AddProduct(string category, string name, string price, string count, string discount, DateTime saleStart, DateTime saleFinish);
+        void AddProduct(Product prod);
         void SaveProduct(Product entity);
         IEnumerable<Product> ChoseDate(DateTime start, DateTime finish);
     }

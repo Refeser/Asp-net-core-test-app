@@ -24,7 +24,11 @@ namespace Store.Controllers
 
         public ActionResult AddProduct(string category, string name, string price, string count, string discount, DateTime saleStart, DateTime saleFinish)
         {
-            dataManager.ProductsRep.AddProduct(category, name, price, count, discount, saleStart, saleFinish);
+            var prod = new Product();
+            prod.ProductCategory = category; prod.ProductName = name; prod.ProductPrice = int.Parse(price);
+            prod.ProductCount = int.Parse(count); prod.Discount = byte.Parse(discount);
+            prod.SaleStart = saleStart; prod.SaleFinish = saleFinish;
+            dataManager.ProductsRep.AddProduct(prod);
             return View();
         }
     }
