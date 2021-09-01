@@ -27,30 +27,30 @@ namespace Store.Domain.Repositories.EntityFramework
         }
 
         [HttpPost]
-        public void AddProduct(string category, string name, string price, string count, string discount, DateTime saleStart, DateTime saleFinish)
+        public void AddProduct(Product prod)
         {
             var product = new Product();
 
-            product.ProductCategory = category;
+            product.ProductCategory = prod.ProductCategory;
 
-            product.ProductName = name;
+            product.ProductName = prod.ProductName;
 
-            product.ProductPrice = int.Parse(price);
+            product.ProductPrice = prod.ProductPrice;
 
-            product.ProductCount = int.Parse(count);
+            product.ProductCount = prod.ProductCount;
 
-            if(discount != null)
-                product.Discount = byte.Parse(discount);
+            if(prod.Discount > 0 )
+                product.Discount = prod.Discount;
             else
                 product.Discount = 0;
 
-            if (saleStart.ToString() != null)
-                product.SaleStart = saleStart;
+            if (prod.SaleStart.ToString() != null)
+                product.SaleStart = prod.SaleStart;
             else
                 product.SaleStart = DateTime.Now;
 
-            if (saleFinish.ToString() != null)
-                product.SaleFinish = saleFinish;
+            if (prod.SaleFinish.ToString() != null)
+                product.SaleFinish = prod.SaleFinish;
             else
                 product.SaleFinish = DateTime.Now;
 
